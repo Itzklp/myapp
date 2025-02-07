@@ -1,0 +1,37 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-16 22:59:53.656246",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "img_name",
+  "img_link"
+ ],
+ "fields": [
+  {
+   "fieldname": "img_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Image Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "img_link",
+   "fieldtype": "Attach Image",
+   "label": "Image Link"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-16 23:00:48.630594",
+ "modified_by": "Administrator",
+ "module": "programming module",
+ "name": "Images",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

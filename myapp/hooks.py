@@ -27,6 +27,9 @@ app_license = "gpl-3.0"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/myapp/css/myapp.css"
 # app_include_js = "/assets/myapp/js/myapp.js"
+# app_include_js = [
+#     "/assets/myapp/js/customer.js"
+# ]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/myapp/css/myapp.css"
@@ -129,26 +132,34 @@ app_license = "gpl-3.0"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+	"Student": "myapp.programming_module.events.Events"
+}
 
 # Document Events
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Customer": {
+		"after_insert": "myapp.programming_module.overrideCustomer.after_insert_customer"
+	}
+}
+
+doctype_js = {
+    "Customer": "public/js/custom_customer.js"
+}
+
 
 # Scheduled Tasks
 # ---------------
 
 # scheduler_events = {
+#     "cron":{
+#         "* * * * *":[
+#             "myapp.programming_module.doctype.scheduling_example.tasks.cron"
+#         ]
+#     },
 # 	"all": [
 # 		"myapp.tasks.all"
 # 	],
@@ -242,3 +253,19 @@ app_license = "gpl-3.0"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+     "Article",
+     "Library Member",
+     "Example",
+     "Fetch Address",
+     "Images",
+     "Product Catalouge",
+     "Product Category",
+     "Product Tags",
+     "Scheduling Example",
+     "Student",
+     "Subject Name",
+     "Subjects",
+     "Tags",
+     "Test"
+]

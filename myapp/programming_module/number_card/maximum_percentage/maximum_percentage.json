@@ -1,0 +1,23 @@
+{
+ "color": "#29CD42",
+ "creation": "2025-01-23 15:15:54.438410",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "filters_json": "{}",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "Maximum Percentage",
+ "modified": "2025-01-23 15:18:45.056482",
+ "modified_by": "Administrator",
+ "module": "programming module",
+ "name": "Maximum Percentage",
+ "owner": "Administrator",
+ "report_field": "stu_percentage",
+ "report_function": "Maximum",
+ "report_name": "Student Report Script",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Report"
+}

@@ -1,0 +1,28 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2025-01-22 11:50:50.592160",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 13,
+ "is_standard": "Yes",
+ "letter_head": "Ultra High School",
+ "letterhead": null,
+ "modified": "2025-02-04 11:08:34.576731",
+ "modified_by": "Administrator",
+ "module": "programming module",
+ "name": "Student Report Script",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Student",
+ "report_name": "Student Report Script",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "timeout": 0
+}

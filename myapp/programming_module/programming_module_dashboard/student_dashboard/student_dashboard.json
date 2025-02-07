@@ -1,0 +1,38 @@
+{
+ "cards": [
+  {
+   "card": "Student Count"
+  },
+  {
+   "card": "Average Percentage"
+  },
+  {
+   "card": "Maximum Percentage"
+  },
+  {
+   "card": "Minimum Percentage"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Student Chart",
+   "width": "Full"
+  },
+  {
+   "chart": "Student Enrollment Trend",
+   "width": "Full"
+  }
+ ],
+ "creation": "2025-01-22 14:44:24.353062",
+ "dashboard_name": "Student Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2025-02-04 11:48:07.409970",
+ "modified_by": "Administrator",
+ "module": "programming module",
+ "name": "Student Dashboard",
+ "owner": "Administrator"
+}

@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:prod_id",
+ "creation": "2025-01-16 22:41:11.305488",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "product_catalouge_section",
+  "prod_id",
+  "prod_name",
+  "prod_catagory",
+  "prod_images",
+  "column_break_jgnz",
+  "prod_price",
+  "prod_stock",
+  "prod_tags",
+  "prod_discription"
+ ],
+ "fields": [
+  {
+   "fieldname": "prod_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Product Id",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "product_catalouge_section",
+   "fieldtype": "Section Break",
+   "label": "Product Catalouge"
+  },
+  {
+   "fieldname": "prod_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Product Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "prod_catagory",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Product Catagory",
+   "options": "Product Category",
+   "reqd": 1
+  },
+  {
+   "description": "per piece",
+   "fieldname": "prod_price",
+   "fieldtype": "Currency",
+   "label": "Product Price",
+   "non_negative": 1,
+   "options": "INR",
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "description": "per piece",
+   "fieldname": "prod_stock",
+   "fieldtype": "Int",
+   "in_filter": 1,
+   "in_standard_filter": 1,
+   "label": "Product Stock",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "prod_images",
+   "fieldtype": "Table",
+   "label": "Product Images",
+   "options": "Images",
+   "reqd": 1
+  },
+  {
+   "fieldname": "prod_discription",
+   "fieldtype": "Small Text",
+   "label": "Product Discription"
+  },
+  {
+   "fieldname": "prod_tags",
+   "fieldtype": "Table MultiSelect",
+   "in_filter": 1,
+   "in_standard_filter": 1,
+   "label": "Tags",
+   "options": "Tags"
+  },
+  {
+   "fieldname": "column_break_jgnz",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-17 12:14:25.580299",
+ "modified_by": "Administrator",
+ "module": "programming module",
+ "name": "Product Catalouge",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

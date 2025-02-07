@@ -1,0 +1,23 @@
+{
+ "color": "#111211",
+ "creation": "2025-01-23 14:59:33.503224",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "filters_json": "{}",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "Average Percentage",
+ "modified": "2025-01-23 15:02:27.806789",
+ "modified_by": "Administrator",
+ "module": "programming module",
+ "name": "Average Percentage",
+ "owner": "Administrator",
+ "report_field": "stu_percentage",
+ "report_function": "Average",
+ "report_name": "Student Report Script",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Report"
+}

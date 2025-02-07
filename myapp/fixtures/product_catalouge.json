@@ -1,0 +1,219 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Product Catalouge",
+  "modified": "2025-01-20 10:47:25.962468",
+  "name": "661253",
+  "prod_catagory": "Fasteners",
+  "prod_discription": "High Quality Screws",
+  "prod_id": "661253",
+  "prod_images": [
+   {
+    "img_link": "/private/files/image (1).png",
+    "img_name": "Img1",
+    "parent": "661253",
+    "parentfield": "prod_images",
+    "parenttype": "Product Catalouge"
+   }
+  ],
+  "prod_name": "Screws",
+  "prod_price": 23.0,
+  "prod_stock": 10000,
+  "prod_tags": [
+   {
+    "parent": "661253",
+    "parentfield": "prod_tags",
+    "parenttype": "Product Catalouge",
+    "tag_link": "aluminum"
+   },
+   {
+    "parent": "661253",
+    "parentfield": "prod_tags",
+    "parenttype": "Product Catalouge",
+    "tag_link": "construction"
+   },
+   {
+    "parent": "661253",
+    "parentfield": "prod_tags",
+    "parenttype": "Product Catalouge",
+    "tag_link": "machinery"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Product Catalouge",
+  "modified": "2025-01-21 10:17:38.217500",
+  "name": "22313",
+  "prod_catagory": "Hand Tools",
+  "prod_discription": "Best Drill ever",
+  "prod_id": "22313",
+  "prod_images": [
+   {
+    "img_link": "/files/delete-button-svgrepo-com.svg",
+    "img_name": "Drill",
+    "parent": "22313",
+    "parentfield": "prod_images",
+    "parenttype": "Product Catalouge"
+   }
+  ],
+  "prod_name": "Drill Machine",
+  "prod_price": 3500.0,
+  "prod_stock": 50,
+  "prod_tags": []
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Product Catalouge",
+  "modified": "2025-01-22 17:56:32.555371",
+  "name": "219838174",
+  "prod_catagory": "Power Tool Accessories",
+  "prod_discription": "High Quality Chain Saw that can cut your guts",
+  "prod_id": "219838174",
+  "prod_images": [
+   {
+    "img_link": null,
+    "img_name": "image123",
+    "parent": "219838174",
+    "parentfield": "prod_images",
+    "parenttype": "Product Catalouge"
+   }
+  ],
+  "prod_name": "Chain Saw",
+  "prod_price": 4000.67,
+  "prod_stock": 15,
+  "prod_tags": []
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Product Catalouge",
+  "modified": "2025-01-23 18:34:09.917202",
+  "name": "1234",
+  "prod_catagory": "Hardware Components",
+  "prod_discription": "",
+  "prod_id": "1234",
+  "prod_images": [
+   {
+    "img_link": null,
+    "img_name": "asdsd",
+    "parent": "1234",
+    "parentfield": "prod_images",
+    "parenttype": "Product Catalouge"
+   }
+  ],
+  "prod_name": "asdd",
+  "prod_price": 123.0,
+  "prod_stock": 123,
+  "prod_tags": []
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Product Catalouge",
+  "modified": "2025-01-23 18:39:39.686853",
+  "name": "12412",
+  "prod_catagory": "Hardware Components",
+  "prod_discription": "",
+  "prod_id": "12412",
+  "prod_images": [
+   {
+    "img_link": null,
+    "img_name": "1234",
+    "parent": "12412",
+    "parentfield": "prod_images",
+    "parenttype": "Product Catalouge"
+   }
+  ],
+  "prod_name": "sfggrwe",
+  "prod_price": 988.0,
+  "prod_stock": 1234,
+  "prod_tags": []
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Product Catalouge",
+  "modified": "2025-01-23 18:40:21.812597",
+  "name": "123sd",
+  "prod_catagory": "Hardware Components",
+  "prod_discription": "",
+  "prod_id": "123sd",
+  "prod_images": [
+   {
+    "img_link": null,
+    "img_name": "342",
+    "parent": "123sd",
+    "parentfield": "prod_images",
+    "parenttype": "Product Catalouge"
+   }
+  ],
+  "prod_name": "hdffgt",
+  "prod_price": 556.0,
+  "prod_stock": 32,
+  "prod_tags": []
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Product Catalouge",
+  "modified": "2025-02-04 14:29:50.899920",
+  "name": "4452a",
+  "prod_catagory": "Power Tools",
+  "prod_discription": "saddsa",
+  "prod_id": "4452a",
+  "prod_images": [
+   {
+    "img_link": null,
+    "img_name": "asdda",
+    "parent": "4452a",
+    "parentfield": "prod_images",
+    "parenttype": "Product Catalouge"
+   }
+  ],
+  "prod_name": "asdlsdp",
+  "prod_price": 1234412.0,
+  "prod_stock": 12,
+  "prod_tags": []
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Product Catalouge",
+  "modified": "2025-02-04 14:31:27.931687",
+  "name": "564eer",
+  "prod_catagory": "Power Tool Accessories",
+  "prod_discription": "",
+  "prod_id": "564eer",
+  "prod_images": [
+   {
+    "img_link": null,
+    "img_name": "ewq",
+    "parent": "564eer",
+    "parentfield": "prod_images",
+    "parenttype": "Product Catalouge"
+   }
+  ],
+  "prod_name": "sadsad",
+  "prod_price": 232.0,
+  "prod_stock": 221,
+  "prod_tags": []
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Product Catalouge",
+  "modified": "2025-02-04 14:34:10.209978",
+  "name": "q4234",
+  "prod_catagory": "Hand Tools",
+  "prod_discription": "",
+  "prod_id": "q4234",
+  "prod_images": [
+   {
+    "img_link": null,
+    "img_name": "112dasd",
+    "parent": "q4234",
+    "parentfield": "prod_images",
+    "parenttype": "Product Catalouge"
+   }
+  ],
+  "prod_name": "asddghsfd",
+  "prod_price": 221.0,
+  "prod_stock": 56,
+  "prod_tags": []
+ }
+]

@@ -1,0 +1,37 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Product Category",
+  "modified": "2025-01-24 10:47:34.756115",
+  "name": "Power Tools",
+  "prod_category": "Power Tools"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Product Category",
+  "modified": "2025-01-16 23:04:17.840553",
+  "name": "Power Tool Accessories",
+  "prod_category": "Power Tool Accessories"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Product Category",
+  "modified": "2025-01-16 23:04:30.371423",
+  "name": "Hardware Components",
+  "prod_category": "Hardware Components"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Product Category",
+  "modified": "2025-01-16 23:03:49.748340",
+  "name": "Fasteners",
+  "prod_category": "Fasteners"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Product Category",
+  "modified": "2025-01-16 23:04:04.739623",
+  "name": "Hand Tools",
+  "prod_category": "Hand Tools"
+ }
+]

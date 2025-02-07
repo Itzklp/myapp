@@ -1,0 +1,34 @@
+[
+ {
+  "custom_email": "kalpdalania@gmail.com",
+  "docstatus": 0,
+  "doctype": "Library Member",
+  "library_member": "Kalp Dalsania",
+  "modified": "2025-01-28 15:36:42.229842",
+  "name": "Kalp Dalsania"
+ },
+ {
+  "custom_email": "mannmehta04@gmail.com",
+  "docstatus": 0,
+  "doctype": "Library Member",
+  "library_member": "Mann Mehta",
+  "modified": "2025-02-03 10:34:42.484464",
+  "name": "Mann Mehta"
+ },
+ {
+  "custom_email": "ayushpatel1112003@gmail.com",
+  "docstatus": 0,
+  "doctype": "Library Member",
+  "library_member": "Ayush Patel",
+  "modified": "2025-02-03 10:34:26.471180",
+  "name": "Ayush Patel"
+ },
+ {
+  "custom_email": "ankur.acharya@gmail.com",
+  "docstatus": 0,
+  "doctype": "Library Member",
+  "library_member": "Ankur Acharya",
+  "modified": "2025-02-03 10:34:06.495531",
+  "name": "Ankur Acharya"
+ }
+]

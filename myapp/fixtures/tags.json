@@ -1,0 +1,32 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Tags",
+  "modified": "2025-01-20 10:47:25.962468",
+  "name": "l6rldkak1l",
+  "parent": "661253",
+  "parentfield": "prod_tags",
+  "parenttype": "Product Catalouge",
+  "tag_link": "aluminum"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Tags",
+  "modified": "2025-01-20 10:47:25.962468",
+  "name": "l6rlmvi709",
+  "parent": "661253",
+  "parentfield": "prod_tags",
+  "parenttype": "Product Catalouge",
+  "tag_link": "construction"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Tags",
+  "modified": "2025-01-20 10:47:25.962468",
+  "name": "l6vrhrbt53",
+  "parent": "661253",
+  "parentfield": "prod_tags",
+  "parenttype": "Product Catalouge",
+  "tag_link": "machinery"
+ }
+]

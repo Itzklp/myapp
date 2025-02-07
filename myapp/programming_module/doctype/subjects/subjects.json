@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{###}",
+ "creation": "2025-01-16 21:45:40.016066",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "sub_name",
+  "sub_marks",
+  "sub_total"
+ ],
+ "fields": [
+  {
+   "fieldname": "sub_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Subject Name",
+   "options": "Subject Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sub_marks",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Obtained Marks",
+   "non_negative": 1,
+   "precision": "2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sub_total",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Total Marks",
+   "non_negative": 1,
+   "precision": "2",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-21 16:27:43.739686",
+ "modified_by": "Administrator",
+ "module": "programming module",
+ "name": "Subjects",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

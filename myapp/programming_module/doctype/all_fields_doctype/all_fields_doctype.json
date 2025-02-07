@@ -1,0 +1,305 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-17 13:00:15.759130",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "details_tab",
+  "section_1_section",
+  "autocomplete",
+  "attach",
+  "fold",
+  "sec_section",
+  "attach_img",
+  "barcode",
+  "column_break_pzda",
+  "button",
+  "check",
+  "float",
+  "geolocation",
+  "column_break_ipyz",
+  "heading",
+  "html",
+  "html_editor",
+  "icon",
+  "image",
+  "tab_2_tab",
+  "section_2_section",
+  "int",
+  "json",
+  "link",
+  "code",
+  "column_break_zeyj",
+  "color",
+  "currency",
+  "data",
+  "date",
+  "long_text",
+  "markdown_editor",
+  "column_break_nkdh",
+  "password",
+  "percent",
+  "phone",
+  "read_only",
+  "rating_fekx",
+  "select",
+  "signature",
+  "table",
+  "text",
+  "text_editor",
+  "time"
+ ],
+ "fields": [
+  {
+   "fieldname": "autocomplete",
+   "fieldtype": "Autocomplete",
+   "label": "AutoComplete",
+   "options": "India\nUSA\nCanada\nGermany"
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "label": "Attach"
+  },
+  {
+   "fieldname": "attach_img",
+   "fieldtype": "Attach Image",
+   "label": "Attach Image"
+  },
+  {
+   "fieldname": "barcode",
+   "fieldtype": "Barcode",
+   "label": "BarCode"
+  },
+  {
+   "fieldname": "column_break_pzda",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "button",
+   "fieldtype": "Button",
+   "label": "Button"
+  },
+  {
+   "default": "1",
+   "fieldname": "check",
+   "fieldtype": "Check",
+   "label": "Check"
+  },
+  {
+   "fieldname": "float",
+   "fieldtype": "Float",
+   "label": "Float",
+   "precision": "4"
+  },
+  {
+   "fieldname": "geolocation",
+   "fieldtype": "Geolocation",
+   "label": "GeoLocation"
+  },
+  {
+   "fieldname": "column_break_ipyz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heading",
+   "fieldtype": "Heading",
+   "label": "Heading"
+  },
+  {
+   "fieldname": "html",
+   "fieldtype": "HTML",
+   "label": "Html",
+   "options": "<p class=\"alert alert-warning\">Hello This is Html Script</p>"
+  },
+  {
+   "fieldname": "html_editor",
+   "fieldtype": "HTML Editor",
+   "label": "Html Editor"
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Icon",
+   "label": "Icon"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Image",
+   "label": "Image",
+   "options": "attach_img"
+  },
+  {
+   "fieldname": "int",
+   "fieldtype": "Int",
+   "label": "int",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "json",
+   "fieldtype": "JSON",
+   "label": "JSON"
+  },
+  {
+   "fieldname": "link",
+   "fieldtype": "Link",
+   "label": "Link",
+   "options": "Product Category"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Code",
+   "label": "Code",
+   "options": "Python "
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "label": "Color"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Currency",
+   "label": "Currency",
+   "options": "USD"
+  },
+  {
+   "fieldname": "data",
+   "fieldtype": "Data",
+   "label": "Data",
+   "options": "Email"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "long_text",
+   "fieldtype": "Long Text",
+   "label": "Long Text"
+  },
+  {
+   "fieldname": "markdown_editor",
+   "fieldtype": "Markdown Editor",
+   "label": "Markdown Editor"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "Password"
+  },
+  {
+   "fieldname": "percent",
+   "fieldtype": "Percent",
+   "label": "percent"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "read_only",
+   "fieldtype": "Read Only",
+   "label": "Read Only"
+  },
+  {
+   "fieldname": "rating_fekx",
+   "fieldtype": "Rating"
+  },
+  {
+   "fieldname": "select",
+   "fieldtype": "Select",
+   "label": "Select"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "table",
+   "fieldtype": "Table",
+   "label": "Table",
+   "options": "Subjects"
+  },
+  {
+   "fieldname": "text",
+   "fieldtype": "Text",
+   "label": "Text"
+  },
+  {
+   "fieldname": "text_editor",
+   "fieldtype": "Text Editor",
+   "label": "Text Editor"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "Time"
+  },
+  {
+   "fieldname": "section_1_section",
+   "fieldtype": "Section Break",
+   "label": "Section 1"
+  },
+  {
+   "fieldname": "section_2_section",
+   "fieldtype": "Section Break",
+   "label": "Section 2"
+  },
+  {
+   "fieldname": "column_break_zeyj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_nkdh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Tab 2"
+  },
+  {
+   "default": "1",
+   "fieldname": "details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "sec_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "fold",
+   "fieldtype": "Fold",
+   "label": "Fold"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-21 16:08:50.668079",
+ "modified_by": "Administrator",
+ "module": "programming module",
+ "name": "All Fields DocType",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

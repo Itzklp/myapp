@@ -1,0 +1,398 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Student",
+  "modified": "2025-01-22 10:51:38.428851",
+  "name": "22CP313",
+  "stu_academics": [
+   {
+    "parent": "22CP313",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 89.64,
+    "sub_name": "English",
+    "sub_total": 100.0
+   },
+   {
+    "parent": "22CP313",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 92.45,
+    "sub_name": "Maths",
+    "sub_total": 100.0
+   },
+   {
+    "parent": "22CP313",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 96.71,
+    "sub_name": "Science",
+    "sub_total": 100.0
+   }
+  ],
+  "stu_dob": "2025-01-01",
+  "stu_doe": "2025-01-15",
+  "stu_gender": "Male",
+  "stu_grade": "A+",
+  "stu_id": "22CP313",
+  "stu_name": "Kalp Dalsania",
+  "stu_notes": "Student is Excellent at Studies",
+  "stu_percentage": 92.93,
+  "stu_status": "Pass",
+  "stu_total": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Student",
+  "modified": "2025-01-30 12:28:43.685101",
+  "name": "22CP312",
+  "stu_academics": [
+   {
+    "parent": "22CP312",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 34.98,
+    "sub_name": "English",
+    "sub_total": 100.0
+   },
+   {
+    "parent": "22CP312",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 12.87,
+    "sub_name": "Maths",
+    "sub_total": 100.0
+   },
+   {
+    "parent": "22CP312",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 23.25,
+    "sub_name": "Science",
+    "sub_total": 100.0
+   }
+  ],
+  "stu_dob": "2025-01-02",
+  "stu_doe": "2025-01-16",
+  "stu_gender": "Female",
+  "stu_grade": "F",
+  "stu_id": "22CP312",
+  "stu_name": "Mann Mehta",
+  "stu_notes": "Student is not good at studies",
+  "stu_percentage": 23.7,
+  "stu_status": "Failed",
+  "stu_total": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Student",
+  "modified": "2025-01-22 10:54:55.613866",
+  "name": "22CP318",
+  "stu_academics": [
+   {
+    "parent": "22CP318",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 77.23,
+    "sub_name": "English",
+    "sub_total": 100.0
+   },
+   {
+    "parent": "22CP318",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 97.31,
+    "sub_name": "Maths",
+    "sub_total": 100.0
+   },
+   {
+    "parent": "22CP318",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 90.23,
+    "sub_name": "Science",
+    "sub_total": 100.0
+   }
+  ],
+  "stu_dob": "2025-01-03",
+  "stu_doe": "2025-01-17",
+  "stu_gender": "Transgender",
+  "stu_grade": "A",
+  "stu_id": "22CP318",
+  "stu_name": "Ayush Patel",
+  "stu_notes": null,
+  "stu_percentage": 88.26,
+  "stu_status": "Pass",
+  "stu_total": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Student",
+  "modified": "2025-01-22 10:55:16.521310",
+  "name": "22CE047",
+  "stu_academics": [
+   {
+    "parent": "22CE047",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 65.09,
+    "sub_name": "English",
+    "sub_total": 100.0
+   },
+   {
+    "parent": "22CE047",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 85.21,
+    "sub_name": "Maths",
+    "sub_total": 100.0
+   },
+   {
+    "parent": "22CE047",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 81.0,
+    "sub_name": "Science",
+    "sub_total": 100.0
+   }
+  ],
+  "stu_dob": "2025-01-09",
+  "stu_doe": "2025-01-12",
+  "stu_gender": "Prefer not to say",
+  "stu_grade": "B+",
+  "stu_id": "22CE047",
+  "stu_name": "Ankur Acharya",
+  "stu_notes": null,
+  "stu_percentage": 77.1,
+  "stu_status": "Pass",
+  "stu_total": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Student",
+  "modified": "2025-01-22 10:54:42.748263",
+  "name": "22CE001",
+  "stu_academics": [
+   {
+    "parent": "22CE001",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 45.0,
+    "sub_name": "English",
+    "sub_total": 100.0
+   },
+   {
+    "parent": "22CE001",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 45.0,
+    "sub_name": "Maths",
+    "sub_total": 100.0
+   },
+   {
+    "parent": "22CE001",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 45.01,
+    "sub_name": "Science",
+    "sub_total": 100.0
+   }
+  ],
+  "stu_dob": "2025-01-01",
+  "stu_doe": "2025-01-15",
+  "stu_gender": "Male",
+  "stu_grade": "D",
+  "stu_id": "22CE001",
+  "stu_name": "Lalu Yadav",
+  "stu_notes": "Studdent is constitent",
+  "stu_percentage": 45.0,
+  "stu_status": "Pass",
+  "stu_total": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Student",
+  "modified": "2025-01-22 10:35:55.202237",
+  "name": "22EE313",
+  "stu_academics": [
+   {
+    "parent": "22EE313",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 54.21,
+    "sub_name": "English",
+    "sub_total": 100.0
+   },
+   {
+    "parent": "22EE313",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 51.56,
+    "sub_name": "Maths",
+    "sub_total": 100.0
+   },
+   {
+    "parent": "22EE313",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 44.0,
+    "sub_name": "Science",
+    "sub_total": 100.0
+   }
+  ],
+  "stu_dob": "2025-01-09",
+  "stu_doe": "2025-01-15",
+  "stu_gender": "Prefer not to say",
+  "stu_grade": "D",
+  "stu_id": "22EE313",
+  "stu_name": "Neil Patel",
+  "stu_notes": null,
+  "stu_percentage": 49.92,
+  "stu_status": "Pass",
+  "stu_total": "149.77 out of 300"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Student",
+  "modified": "2025-01-22 10:33:44.207468",
+  "name": "122",
+  "stu_academics": [
+   {
+    "parent": "122",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 12.0,
+    "sub_name": "English",
+    "sub_total": 100.0
+   }
+  ],
+  "stu_dob": "2025-01-01",
+  "stu_doe": "2025-01-17",
+  "stu_gender": null,
+  "stu_grade": "F",
+  "stu_id": "122",
+  "stu_name": "jrni",
+  "stu_notes": null,
+  "stu_percentage": 12.0,
+  "stu_status": "Fail",
+  "stu_total": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Student",
+  "modified": "2025-01-22 10:55:45.441105",
+  "name": "22EC432",
+  "stu_academics": [
+   {
+    "parent": "22EC432",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 45.0,
+    "sub_name": "English",
+    "sub_total": 90.0
+   },
+   {
+    "parent": "22EC432",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 67.0,
+    "sub_name": "Maths",
+    "sub_total": 80.0
+   },
+   {
+    "parent": "22EC432",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 12.11,
+    "sub_name": "Science",
+    "sub_total": 60.0
+   }
+  ],
+  "stu_dob": "2025-01-08",
+  "stu_doe": "2025-01-23",
+  "stu_gender": "Male",
+  "stu_grade": "C",
+  "stu_id": "22EC432",
+  "stu_name": "Manhar Desai",
+  "stu_notes": "Student is Not very good at studies",
+  "stu_percentage": 53.96,
+  "stu_status": "Fail",
+  "stu_total": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Student",
+  "modified": "2025-01-23 15:14:08.325948",
+  "name": "22CP012",
+  "stu_academics": [
+   {
+    "parent": "22CP012",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 98.0,
+    "sub_name": "English",
+    "sub_total": 100.0
+   },
+   {
+    "parent": "22CP012",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 76.0,
+    "sub_name": "Maths",
+    "sub_total": 100.0
+   },
+   {
+    "parent": "22CP012",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 85.62,
+    "sub_name": "Science",
+    "sub_total": 100.0
+   }
+  ],
+  "stu_dob": "2025-01-02",
+  "stu_doe": "2025-01-23",
+  "stu_gender": "Female",
+  "stu_grade": "A",
+  "stu_id": "22CP012",
+  "stu_name": "Nana Janashia",
+  "stu_notes": "Student is good at studies",
+  "stu_percentage": 86.54,
+  "stu_status": "Pass",
+  "stu_total": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Student",
+  "modified": "2025-01-30 12:32:51.656271",
+  "name": "22CE01",
+  "stu_academics": [
+   {
+    "parent": "22CE01",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 54.0,
+    "sub_name": "English",
+    "sub_total": 100.0
+   },
+   {
+    "parent": "22CE01",
+    "parentfield": "stu_academics",
+    "parenttype": "Student",
+    "sub_marks": 57.0,
+    "sub_name": "Science",
+    "sub_total": 75.0
+   }
+  ],
+  "stu_dob": "2025-01-10",
+  "stu_doe": "2025-01-16",
+  "stu_gender": "Male",
+  "stu_grade": "B",
+  "stu_id": "22CE01",
+  "stu_name": "Ram",
+  "stu_notes": "Student is Week",
+  "stu_percentage": 63.43,
+  "stu_status": "Excellent",
+  "stu_total": null
+ }
+]

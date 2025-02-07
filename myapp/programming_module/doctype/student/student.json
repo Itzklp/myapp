@@ -1,0 +1,151 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:stu_id",
+ "creation": "2025-01-16 21:51:50.528965",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "student_form_section",
+  "personal_info_column",
+  "stu_id",
+  "stu_name",
+  "stu_dob",
+  "stu_doe",
+  "stu_gender",
+  "academics_info_column",
+  "stu_academics",
+  "stu_total",
+  "stu_status",
+  "stu_percentage",
+  "stu_grade",
+  "stu_notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_form_section",
+   "fieldtype": "Section Break",
+   "label": "Student Form"
+  },
+  {
+   "fieldname": "stu_id",
+   "fieldtype": "Data",
+   "in_preview": 1,
+   "label": "Student Id",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "stu_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Student Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "stu_dob",
+   "fieldtype": "Date",
+   "in_filter": 1,
+   "label": "Date of Birth",
+   "reqd": 1
+  },
+  {
+   "fieldname": "stu_doe",
+   "fieldtype": "Date",
+   "in_filter": 1,
+   "label": "Date of Enrollment",
+   "reqd": 1
+  },
+  {
+   "fieldname": "stu_academics",
+   "fieldtype": "Table",
+   "label": "Academics",
+   "options": "Subjects",
+   "reqd": 1
+  },
+  {
+   "fieldname": "stu_gender",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Gender",
+   "options": "Gender"
+  },
+  {
+   "fieldname": "stu_status",
+   "fieldtype": "Read Only",
+   "in_filter": 1,
+   "in_preview": 1,
+   "label": "Status"
+  },
+  {
+   "fieldname": "stu_percentage",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Percentage",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "stu_grade",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Grade"
+  },
+  {
+   "fieldname": "stu_notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "stu_total",
+   "fieldtype": "Read Only",
+   "is_virtual": 1,
+   "label": "Total",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "personal_info_column",
+   "fieldtype": "Column Break",
+   "label": "Personal Info"
+  },
+  {
+   "fieldname": "academics_info_column",
+   "fieldtype": "Column Break",
+   "label": "Academics Info"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-24 11:04:52.336926",
+ "modified_by": "Administrator",
+ "module": "programming module",
+ "name": "Student",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_preview_popup": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
