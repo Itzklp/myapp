@@ -78,7 +78,9 @@
    "fieldname": "stu_status",
    "fieldtype": "Read Only",
    "in_filter": 1,
+   "in_list_view": 1,
    "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Status"
   },
   {
@@ -92,9 +94,6 @@
   {
    "fieldname": "stu_grade",
    "fieldtype": "Read Only",
-   "in_list_view": 1,
-   "in_preview": 1,
-   "in_standard_filter": 1,
    "label": "Grade"
   },
   {
@@ -123,7 +122,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-24 11:04:52.336926",
+ "modified": "2025-02-11 16:01:50.490231",
  "modified_by": "Administrator",
  "module": "programming module",
  "name": "Student",

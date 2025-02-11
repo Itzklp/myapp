@@ -6,10 +6,12 @@ import frappe
 def execute(filters=None):
     columns = getColumns()
     data = getData(filters)
-    return columns, data
+    chart = getChartData(data)
+    
+    return columns, data, None, chart
 
 def getColumns():
-     return [
+    return [
         {
             "fieldname": "stu_id",
             "label": "Student ID",
@@ -80,6 +82,22 @@ def getData(filters):
         })
     
     return resultData
+
+def getChartData(data):
+    labels = []
+    values = []
+    
+    for record in data:
+        labels.append(record["sub_name"])
+        values.append(record["sub_marks"])
+    
+    return {
+        "data": {
+            "labels": labels,
+            "datasets": [{"values": values}]
+        },
+        "type": "pie"
+    }
 
 def getConditions(filters):
     conditions = {}

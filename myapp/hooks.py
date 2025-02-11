@@ -142,7 +142,8 @@ override_doctype_class = {
 
 doc_events = {
 	"Customer": {
-		"after_insert": "myapp.programming_module.overrideCustomer.after_insert_customer"
+		"after_insert": "myapp.programming_module.overrideCustomer.after_insert_customer",
+        "on_update": "myapp.programming_module.overrideCustomer.after_insert_customer",
 	}
 }
 
@@ -253,19 +254,25 @@ doctype_js = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
-fixtures = [
-     "Article",
-     "Library Member",
-     "Example",
-     "Fetch Address",
-     "Images",
-     "Product Catalouge",
-     "Product Category",
-     "Product Tags",
-     "Scheduling Example",
-     "Student",
-     "Subject Name",
-     "Subjects",
-     "Tags",
-     "Test"
-]
+# fixtures = [
+#      "Article",
+#      "Library Member",
+#      "Example",
+#      "Fetch Address",
+#      "Images",
+#      "Product Catalouge",
+#      "Product Category",
+#      "Product Tags",
+#      "Scheduling Example",
+#      "Student",
+#      "Subject Name",
+#      "Subjects",
+#      "Tags",
+#      "Test"
+# ]
+
+test_string = "value"
+test_list = ["value"]
+test_dict = {
+    "key": "value"
+}
