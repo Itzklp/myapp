@@ -8,7 +8,6 @@ import json
 @frappe.whitelist()
 def fetch_customers(**kwargs):
     try:
-        frappe.logger().info(f"Received kwargs: {kwargs}")
         data = kwargs.get('data')
         if isinstance(data, str):
             data = json.loads(data)
@@ -25,5 +24,4 @@ def fetch_customers(**kwargs):
         return {"message": _("Customers fetched successfully"), "customers": customers}
 
     except Exception as e:
-        frappe.log_error(frappe.get_traceback(), "Fetch Customers API Error")
         return {"error": str(e)}

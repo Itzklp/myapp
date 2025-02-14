@@ -25,7 +25,6 @@ def get_columns():
     ]
 
 def get_data(filters=None):
-    # Build conditions for filtering students
     conditions = {}
     if filters:
         if filters.get("stu_id"):
@@ -39,12 +38,10 @@ def get_data(filters=None):
         if filters.get("stu_percentage"):
             conditions["stu_percentage"] = [">=", float(filters["stu_percentage"])]
 
-    # Fetch students based on filters
     student_list = frappe.get_all("Student", fields=["name", "stu_id", "stu_name", "stu_dob", "stu_doe", "stu_gender", "stu_percentage", "stu_grade", "stu_notes"], filters=conditions)
     data = []
 
     for student in student_list:
-        # Add student details
         data.append({
             "stu_id": student["stu_id"],
             "stu_name": student["stu_name"],
@@ -60,7 +57,6 @@ def get_data(filters=None):
             "indent": 0
         })
 
-        # Fetch subjects for the student
         student_subjects = frappe.get_all(
             "Subjects", 
             filters={"parent": student["name"]}, 
@@ -70,7 +66,6 @@ def get_data(filters=None):
         total_marks_obtained = 0
         total_max_marks = 0
 
-        # Add subject details
         for subject in student_subjects:
             data.append({
                 "stu_id": None,
@@ -89,7 +84,6 @@ def get_data(filters=None):
             total_marks_obtained += subject["sub_marks"]
             total_max_marks += subject["sub_total"]
 
-        # Add total marks row
         data.append({
             "stu_id": None,
             "stu_name": None,

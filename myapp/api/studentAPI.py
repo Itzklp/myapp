@@ -7,12 +7,9 @@ import json
 
 @frappe.whitelist()
 def create_student(**kwargs): 
-    frappe.logger().info(f"Received kwargs: {kwargs}")
     data = kwargs.get('data')
     if isinstance(data, str):
         data = json.loads(data)
-    
-    frappe.logger().info(f"Parsed data: {data}")
     
     student = frappe.get_doc({
         "doctype": "Student",
